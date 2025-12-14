@@ -1,0 +1,13 @@
+{
+  "domain": "powerwall3basic",
+  "name": "Tesla Powerwall 3 (Basic)",
+  "codeowners": [
+    "@mattprecious"
+  ],
+  "config_flow": true,
+  "documentation": "https://github.com/mattprecious/ha-powerwall3basic",
+  "iot_class": "local_polling",
+  "requirements": [
+    "pypowerwall==0.14.4"
+  ]
+}
