@@ -1,6 +1,7 @@
 {
   "domain": "powerwall3basic",
   "name": "Tesla Powerwall 3 (Basic)",
+  "version": "0.1.0",
   "codeowners": [
     "@mattprecious"
   ],
