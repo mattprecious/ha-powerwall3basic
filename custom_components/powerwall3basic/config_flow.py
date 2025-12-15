@@ -7,12 +7,12 @@ from typing import Any
 
 import voluptuous as vol
 
-from homeassistant.components.powerwall3basic.api import PowerwallApi
 from homeassistant.config_entries import ConfigFlow, ConfigFlowResult
 from homeassistant.const import CONF_HOST, CONF_PASSWORD, CONF_ID
 from homeassistant.core import HomeAssistant
 from homeassistant.exceptions import HomeAssistantError
 
+from .api import PowerwallApi
 from .const import DOMAIN
 from .coordinator import PowerwallData
 
