@@ -49,7 +49,7 @@ class PowerwallApi:
 
     async def get_battery_level(self) -> float | None:
         level = await self.hass.async_add_executor_job(self.powerwall.level, True)
-        if level:
+        if level is not None:
             return float(level)
 
         return None
@@ -59,7 +59,7 @@ class PowerwallApi:
             self.powerwall.grid_status, "numeric"
         )
 
-        if status:
+        if status is not None:
             return status == 1
 
         return None
