@@ -4,6 +4,10 @@ A Home Assistant integration that gathers basic Powerwall 3 information through 
 
 This integration is still **extremely experimental**.
 
+The core [Powerwall integration](https://www.home-assistant.io/integrations/powerwall) has been
+updated in [2026.7](https://www.home-assistant.io/blog/2026/07/01/release-20267/) to work with
+Powerall 3 so this integration is no longer needed. It will be archived once I switch over.
+
 # License
 
     Copyright 2025 Matthew Precious
